@@ -170,7 +170,7 @@ pub async fn send_bundle_with_confirmation(
     }
     info!("Bundle landed successfully");
     for sig in bundle_signatures.iter() {
-        info!("https://solscan.io/tx/{}", sig);
+        info!("https://explorer.solana.com/tx/{}", sig);
     }
     Ok(())
 }
